@@ -6,4 +6,7 @@ const router = express.Router();
 
 router.use('/v1', v1ApiRoutes);
 
-module.exports = router;
+module.exports = {
+    apiRoutes: router
+};
+
